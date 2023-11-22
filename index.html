@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bennett Crowley | Full-Stack Developer</title>
-  </head>
-  <body>
-    <header>
-      <nav class="flex items-center justify-between p-4">
-        <h1 class="text-xl font-bold">Bennett Crowley</h1>
-        <div>
-          <a href="https://www.linkedin.com/in/bennett-crowley/">LinkedIn</a>
-          <a href="mailto:benjcrowley@gmail.com">Email</a>
-        </div>
-      </nav>
-    </header>
-    <main class="p-4">
-      <h2 class="text-2xl font-bold mb-4">About Me</h2>
-      <p>
-        I am a full-stack developer with experience in both React and Python. I am a creative problem-solver who enjoys tackling complex challenges and delivering quality solutions.
-      </p>
-      <h2 class="text-2xl font-bold mb-4">Projects</h2>
-      <h3 class="text-xl font-bold mb-2">Sneaker Script App</h3>
-      <p>
-        My most recent project was the creation of a sneaker script app. This project required extensive knowledge of React for the front-end and Python for the back-end. The goal was to build a user-friendly app that would automate the process of purchasing limited edition sneakers. I am proud to say that the app was a success and received positive feedback from users.
-      </p>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bennett Crowley</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+    <div class="container mx-auto px-6 py-8">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900">My Portfolio</h1>
+        </header>
+        <main class="grid grid-cols-4 gap-8">
+            <div class="col-span-3 space-y-8">
+                <!-- Project tiles go here -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h2 class="text-2xl font-bold text-gray-900">Project 1</h2>
+                    <p class="mt-2 text-gray-600">Project description...</p>
+                </div>
+                <!-- Repeat for each project -->
+            </div>
+            <aside>
+                <!-- Sidebar content goes here -->
+                <div class="bg-white p-6 rounded-lg shadow mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900">About Me</h2>
+                    <p class="mt-2 text-gray-600">Your bio...</p>
+                </div>
+ <div class="bg-white p-6 rounded-lg shadow mb-8">
+    <h2 class="text-2xl font-bold text-gray-900">Connect with Me</h2>
+    <ul class="mt-2 text-gray-600 space-y-2">
+        <li><a href="https://github.com/benjcrowley" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/bennett-crowley/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://docs.google.com/document/d/1jFvSr0QmqBQsT5zsXxG2aS-MFtB4zO47TQ6qIB71MiQ/edit?usp=sharing" target="_blank">Resume</a></li>
+        <li><a href="https://www.instagram.com/benjcrowley/" target="_blank">Instagram</a></li>
+    </ul>
+</div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h2 class="text-2xl font-bold text-gray-900">Pinned Projects</h2>
+                    <ul class="mt-2 text-gray-600 space-y-2">
+                        <li><a href="#">Project 1</a></li>
+                        <!-- Repeat for each pinned project -->
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
 </html>
